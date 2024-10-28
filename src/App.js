@@ -35,7 +35,7 @@ function App()
 
   <form onSubmit={handlesubmit}>
   <label htmlFor="name">Name:</label>
-    <input type='text' name='name' onChange={handlechange} placeholder='name' />
+    <input type='text' name='name' value={formdata.name} onChange={handlechange} placeholder='name' />
     <button type='submit'>Submit</button>
     
   </form>
